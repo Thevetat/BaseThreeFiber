@@ -41,7 +41,7 @@ function Experience() {
             <Perf position="top-left" minimal />
             <Grid
                 args={[300, 300]}
-                sectionColor={"lightgray"}
+                sectionColor={"hsl(280, 30%, 30%)"}
                 cellColor={"gray"}
                 position={[0, -0.99, 0]}
                 userData={{ camExcludeCollision: true }}
@@ -57,6 +57,7 @@ function Experience() {
                         animated
                         followLight
                         springK={2}
+                        mode="FixedCamera"
                         dampingC={0.2}
                         autoBalanceSpringK={1.2}
                         autoBalanceDampingC={0.04}

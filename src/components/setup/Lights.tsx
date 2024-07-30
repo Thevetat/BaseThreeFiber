@@ -4,6 +4,7 @@ export default function Lights() {
         <>
             <directionalLight
                 castShadow
+                color="hsl(180, 100%, 80%)"
                 shadow-normalBias={0.06}
                 position={[20, 30, 10]}
                 intensity={5}
